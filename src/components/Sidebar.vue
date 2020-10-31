@@ -76,6 +76,12 @@ export default {
           icon: "el-icon-edit-outline",
           index: "template",
           title: "组件模板",
+          subs: [
+            {
+              index: "thirdForm2",
+              title: "markdown编辑器",
+            },
+          ],
         },
         {
           icon: "el-icon-files",
@@ -93,10 +99,6 @@ export default {
                 {
                   index: "thirdForm1",
                   title: "富文本编辑器",
-                },
-                {
-                  index: "thirdForm2",
-                  title: "markdown编辑器",
                 },
               ],
             },
